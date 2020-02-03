@@ -10,7 +10,6 @@ Install themes :
 - Extract Archive File On Directory<i> /usr/share/themes (as root),</i> </br>
 - Or Extract Archive File On Directory<i> Home/.themes</i></br>
 - Or Extract Archive File On Directory <i>Home/.local/share/themes</i></br>
-Download themes : https://www.opendesktop.org/p/1297726/</br>
 
 ## Change themes
 "This is the theme of gnome-shell. You can use it on Gnome Desktop Environment"</br>
