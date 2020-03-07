@@ -4597,92 +4597,6 @@ filechooser placessidebar.sidebar scrollbar,
         .budgie-popover.user-menu row:active label {
           color: #f8f8fa; }
 
-.budgie-panel {
-  background-color: #101213;
-  color: #f8f8fa; }
-  .budgie-panel widget button {
-    background-color: transparent;
-    border-color: transparent;
-    color: #f8f8fa; }
-    .budgie-panel widget button label {
-      color: #f8f8fa; }
-    .budgie-panel widget button image {
-      color: #f8f8fa; }
-    .budgie-panel widget button:hover {
-      background-color: #232729;
-      border-color: #101213;
-      color: #f8f8fa; }
-      .budgie-panel widget button:hover label {
-        color: #f8f8fa; }
-      .budgie-panel widget button:hover image {
-        color: #f8f8fa; }
-    .budgie-panel widget button:active {
-      background-color: #272c2f;
-      border-color: #101213;
-      color: #f8f8fa; }
-      .budgie-panel widget button:active label {
-        color: #f8f8fa; }
-      .budgie-panel widget button:active image {
-        color: #f8f8fa; }
-    .budgie-panel widget button:checked {
-      background-color: #272c2f;
-      border-color: #101213;
-      color: #f8f8fa; }
-      .budgie-panel widget button:checked label {
-        color: #f8f8fa; }
-      .budgie-panel widget button:checked image {
-        color: #f8f8fa; }
-  .budgie-panel .workspace-switcher .workspace-layout {
-    background-color: #101213;
-    color: #f8f8fa; }
-  .budgie-panel .workspace-switcher .workspace-item {
-    background-color: #101213;
-    color: #f8f8fa; }
-    .budgie-panel .workspace-switcher .workspace-item grid {
-      background-color: transparent;
-      color: #f8f8fa;
-      margin-left: 4px;
-      margin-right: 4px;
-      border-bottom: 2px solid rgba(255, 0, 0, 0.89); }
-  .budgie-panel .workspace-switcher .current-workspace {
-    background-color: #101213;
-    color: #f8f8fa; }
-    .budgie-panel .workspace-switcher .current-workspace grid {
-      background-color: transparent;
-      color: #f8f8fa;
-      margin-left: 4px;
-      margin-right: 4px;
-      border-bottom: 2px solid #355374; }
-  .budgie-panel .workspace-add-button {
-    background-color: transparent;
-    border-color: transparent; }
-    .budgie-panel .workspace-add-button:hover {
-      background-color: #232729;
-      color: #f8f8fa; }
-    .budgie-panel .workspace-add-button:active {
-      background-color: #272c2f;
-      color: #f8f8fa; }
-  .budgie-panel #tasklist-button {
-    background-color: #101213;
-    color: #f8f8fa; }
-    .budgie-panel #tasklist-button label {
-      color: #f8f8fa; }
-    .budgie-panel #tasklist-button:hover {
-      background-color: #232729;
-      color: #f8f8fa; }
-      .budgie-panel #tasklist-button:hover label {
-        color: #f8f8fa; }
-    .budgie-panel #tasklist-button:active {
-      background-color: #272c2f;
-      color: #f8f8fa; }
-      .budgie-panel #tasklist-button:active label {
-        color: #f8f8fa; }
-    .budgie-panel #tasklist-button:checked {
-      background-color: #272c2f;
-      color: #f8f8fa; }
-      .budgie-panel #tasklist-button:checked label {
-        color: #f8f8fa; }
-
 .budgie-run-dialog {
   background-color: #282B2F;
   border-radius: 2px;
@@ -4710,6 +4624,232 @@ filechooser placessidebar.sidebar scrollbar,
       box-shadow: 1px 2px rgba(0, 0, 0, 0.22); }
       .budgie-run-dialog entry.search:focus label, .budgie-run-dialog entry.search:focus image {
         color: #f8f8fa; }
+
+.top .budgie-panel.background, .right .budgie-panel.background, .bottom .budgie-panel.background, .left .budgie-panel.background {
+  background-color: #101213;
+  color: rgba(248, 248, 250, 0.77);
+  border-color: transparent; }
+
+.top .budgie-panel.transparent, .right .budgie-panel.transparent, .bottom .budgie-panel.transparent, .left .budgie-panel.transparent {
+  background-color: rgba(16, 18, 19, 0.25);
+  color: #f8f8fa;
+  border-color: transparent; }
+
+.top .budgie-panel.transparent .start-region, .top .budgie-panel.transparent .center-region, .top .budgie-panel.transparent .end-region, .right .budgie-panel.transparent .start-region, .right .budgie-panel.transparent .center-region, .right .budgie-panel.transparent .end-region, .bottom .budgie-panel.transparent .start-region, .bottom .budgie-panel.transparent .center-region, .bottom .budgie-panel.transparent .end-region, .left .budgie-panel.transparent .start-region, .left .budgie-panel.transparent .center-region, .left .budgie-panel.transparent .end-region {
+  background-color: transparent; }
+.top .budgie-panel widget button, .right .budgie-panel widget button, .bottom .budgie-panel widget button, .left .budgie-panel widget button {
+  background-color: transparent;
+  border-color: transparent;
+  color: rgba(248, 248, 250, 0.77); }
+  .top .budgie-panel widget button label, .top .budgie-panel widget button image, .right .budgie-panel widget button label, .right .budgie-panel widget button image, .bottom .budgie-panel widget button label, .bottom .budgie-panel widget button image, .left .budgie-panel widget button label, .left .budgie-panel widget button image {
+    color: rgba(248, 248, 250, 0.77); }
+  .top .budgie-panel widget button:hover, .right .budgie-panel widget button:hover, .bottom .budgie-panel widget button:hover, .left .budgie-panel widget button:hover {
+    background-color: #232729;
+    border-color: transparent;
+    color: rgba(248, 248, 250, 0.77); }
+    .top .budgie-panel widget button:hover label, .top .budgie-panel widget button:hover image, .right .budgie-panel widget button:hover label, .right .budgie-panel widget button:hover image, .bottom .budgie-panel widget button:hover label, .bottom .budgie-panel widget button:hover image, .left .budgie-panel widget button:hover label, .left .budgie-panel widget button:hover image {
+      color: rgba(248, 248, 250, 0.77); }
+  .top .budgie-panel widget button:active, .top .budgie-panel widget button:checked, .right .budgie-panel widget button:active, .right .budgie-panel widget button:checked, .bottom .budgie-panel widget button:active, .bottom .budgie-panel widget button:checked, .left .budgie-panel widget button:active, .left .budgie-panel widget button:checked {
+    background-color: #272c2f;
+    border-color: transparent;
+    color: #f8f8fa; }
+    .top .budgie-panel widget button:active label, .top .budgie-panel widget button:active image, .top .budgie-panel widget button:checked label, .top .budgie-panel widget button:checked image, .right .budgie-panel widget button:active label, .right .budgie-panel widget button:active image, .right .budgie-panel widget button:checked label, .right .budgie-panel widget button:checked image, .bottom .budgie-panel widget button:active label, .bottom .budgie-panel widget button:active image, .bottom .budgie-panel widget button:checked label, .bottom .budgie-panel widget button:checked image, .left .budgie-panel widget button:active label, .left .budgie-panel widget button:active image, .left .budgie-panel widget button:checked label, .left .budgie-panel widget button:checked image {
+      color: #f8f8fa; }
+  .top .budgie-panel widget button#tasklist-button, .right .budgie-panel widget button#tasklist-button, .bottom .budgie-panel widget button#tasklist-button, .left .budgie-panel widget button#tasklist-button {
+    background-color: transparent;
+    color: rgba(248, 248, 250, 0.77); }
+    .top .budgie-panel widget button#tasklist-button label, .top .budgie-panel widget button#tasklist-button image, .right .budgie-panel widget button#tasklist-button label, .right .budgie-panel widget button#tasklist-button image, .bottom .budgie-panel widget button#tasklist-button label, .bottom .budgie-panel widget button#tasklist-button image, .left .budgie-panel widget button#tasklist-button label, .left .budgie-panel widget button#tasklist-button image {
+      color: rgba(248, 248, 250, 0.77); }
+    .top .budgie-panel widget button#tasklist-button:hover, .right .budgie-panel widget button#tasklist-button:hover, .bottom .budgie-panel widget button#tasklist-button:hover, .left .budgie-panel widget button#tasklist-button:hover {
+      background-color: rgba(28, 31, 33, 0.55);
+      color: #f8f8fa; }
+      .top .budgie-panel widget button#tasklist-button:hover label, .top .budgie-panel widget button#tasklist-button:hover image, .right .budgie-panel widget button#tasklist-button:hover label, .right .budgie-panel widget button#tasklist-button:hover image, .bottom .budgie-panel widget button#tasklist-button:hover label, .bottom .budgie-panel widget button#tasklist-button:hover image, .left .budgie-panel widget button#tasklist-button:hover label, .left .budgie-panel widget button#tasklist-button:hover image {
+        color: #f8f8fa; }
+    .top .budgie-panel widget button#tasklist-button:active, .top .budgie-panel widget button#tasklist-button:checked, .right .budgie-panel widget button#tasklist-button:active, .right .budgie-panel widget button#tasklist-button:checked, .bottom .budgie-panel widget button#tasklist-button:active, .bottom .budgie-panel widget button#tasklist-button:checked, .left .budgie-panel widget button#tasklist-button:active, .left .budgie-panel widget button#tasklist-button:checked {
+      background-color: rgba(35, 39, 41, 0.55);
+      color: #f8f8fa; }
+      .top .budgie-panel widget button#tasklist-button:active label, .top .budgie-panel widget button#tasklist-button:active image, .top .budgie-panel widget button#tasklist-button:checked label, .top .budgie-panel widget button#tasklist-button:checked image, .right .budgie-panel widget button#tasklist-button:active label, .right .budgie-panel widget button#tasklist-button:active image, .right .budgie-panel widget button#tasklist-button:checked label, .right .budgie-panel widget button#tasklist-button:checked image, .bottom .budgie-panel widget button#tasklist-button:active label, .bottom .budgie-panel widget button#tasklist-button:active image, .bottom .budgie-panel widget button#tasklist-button:checked label, .bottom .budgie-panel widget button#tasklist-button:checked image, .left .budgie-panel widget button#tasklist-button:active label, .left .budgie-panel widget button#tasklist-button:active image, .left .budgie-panel widget button#tasklist-button:checked label, .left .budgie-panel widget button#tasklist-button:checked image {
+        color: #f8f8fa; }
+
+.top .budgie-panel .workspace-switcher .workspace-layout {
+  background-color: transparent;
+  color: rgba(248, 248, 250, 0.77); }
+  .top .budgie-panel .workspace-switcher .workspace-layout .workspace-item {
+    background-color: transparent;
+    color: rgba(248, 248, 250, 0.77);
+    border-top: 2px solid transparent;
+    margin: 0px; }
+    .top .budgie-panel .workspace-switcher .workspace-layout .workspace-item grid {
+      background-color: transparent;
+      border-bottom: 2px solid rgba(255, 0, 0, 0.34);
+      margin-left: 4px;
+      margin-right: 4px;
+      margin-top: 0px;
+      margin-bottom: 0px; }
+  .top .budgie-panel .workspace-switcher .workspace-layout .current-workspace {
+    background-color: rgba(16, 18, 19, 0.08);
+    color: #f8f8fa;
+    border-bottom: 2px solid transparent;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    margin: 0px; }
+    .top .budgie-panel .workspace-switcher .workspace-layout .current-workspace grid {
+      border-bottom: 2px solid #355374;
+      margin-left: 4px;
+      margin-right: 4px;
+      margin-top: 0px;
+      margin-bottom: 0px; }
+
+.right .budgie-panel .workspace-switcher .workspace-layout {
+  background-color: transparent;
+  color: rgba(248, 248, 250, 0.77); }
+  .right .budgie-panel .workspace-switcher .workspace-layout .workspace-item {
+    background-color: transparent;
+    color: rgba(248, 248, 250, 0.77);
+    border-left: 2px solid transparent;
+    margin: 0px; }
+    .right .budgie-panel .workspace-switcher .workspace-layout .workspace-item grid {
+      background-color: transparent;
+      border-left: 2px solid rgba(255, 0, 0, 0.34);
+      margin-top: 4px;
+      margin-bottom: 4px;
+      margin-left: 0px;
+      margin-right: 0px; }
+  .right .budgie-panel .workspace-switcher .workspace-layout .current-workspace {
+    background-color: rgba(16, 18, 19, 0.08);
+    color: #f8f8fa;
+    border-left: 2px solid transparent;
+    border-top: 4px solid transparent;
+    border-bottom: 4px solid transparent;
+    margin: 0px; }
+    .right .budgie-panel .workspace-switcher .workspace-layout .current-workspace grid {
+      border-left: 2px solid #355374;
+      margin-top: 4px;
+      margin-bottom: 4px;
+      margin-left: 0px;
+      margin-right: 0px; }
+
+.bottom .budgie-panel .workspace-switcher .workspace-layout {
+  background-color: transparent;
+  color: rgba(248, 248, 250, 0.77); }
+  .bottom .budgie-panel .workspace-switcher .workspace-layout .workspace-item {
+    background-color: transparent;
+    color: rgba(248, 248, 250, 0.77);
+    border-top: 2px solid transparent;
+    margin: 0px; }
+    .bottom .budgie-panel .workspace-switcher .workspace-layout .workspace-item grid {
+      background-color: transparent;
+      border-top: 2px solid rgba(255, 0, 0, 0.34);
+      margin-left: 4px;
+      margin-right: 4px;
+      margin-top: 0px;
+      margin-bottom: 0px; }
+  .bottom .budgie-panel .workspace-switcher .workspace-layout .current-workspace {
+    background-color: rgba(16, 18, 19, 0.08);
+    color: #f8f8fa;
+    border-top: 2px solid transparent;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    margin: 0px; }
+    .bottom .budgie-panel .workspace-switcher .workspace-layout .current-workspace grid {
+      border-top: 2px solid #355374;
+      margin-left: 4px;
+      margin-right: 4px;
+      margin-top: 0px;
+      margin-bottom: 0px; }
+
+.left .budgie-panel .workspace-switcher .workspace-layout {
+  background-color: transparent;
+  color: rgba(248, 248, 250, 0.77); }
+  .left .budgie-panel .workspace-switcher .workspace-layout .workspace-item {
+    background-color: transparent;
+    color: rgba(248, 248, 250, 0.77);
+    border-right: 2px solid transparent;
+    margin: 0px; }
+    .left .budgie-panel .workspace-switcher .workspace-layout .workspace-item grid {
+      background-color: transparent;
+      border-right: 2px solid rgba(255, 0, 0, 0.34);
+      margin-top: 4px;
+      margin-bottom: 4px;
+      margin-left: 0px;
+      margin-right: 0px; }
+  .left .budgie-panel .workspace-switcher .workspace-layout .current-workspace {
+    background-color: rgba(16, 18, 19, 0.08);
+    color: #f8f8fa;
+    border-right: 2px solid transparent;
+    border-top: 4px solid transparent;
+    border-bottom: 4px solid transparent;
+    margin: 0px; }
+    .left .budgie-panel .workspace-switcher .workspace-layout .current-workspace grid {
+      border-right: 2px solid #355374;
+      margin-top: 4px;
+      margin-bottom: 4px;
+      margin-left: 0px;
+      margin-right: 0px; }
+
+.raven-frame, .raven-frame .raven-header {
+  background-color: #212427;
+  color: #f8f8fa;
+  border-radius: 2px; }
+
+.raven-frame list, .raven-frame .raven-background, .raven-frame .raven-background stackswitcher.linked > button, .raven-frame .raven-background button, .raven-frame calendar.raven-calendar {
+  background-color: #282B2F;
+  color: #f8f8fa;
+  border-radius: 2px; }
+
+.raven-frame .raven-header.top stackswitcher.linked > button, .raven-frame .raven-header.bottom button {
+  background-color: #2d3035;
+  color: #f8f8fa;
+  border-color: #131516;
+  border-radius: 2px; }
+
+.raven-frame .raven-header.top, .raven-frame .raven-header.bottom {
+  padding: 0px; }
+.raven-frame .raven-header.top stackswitcher.linked > button:hover {
+  background-color: #383d42;
+  color: #f8f8fa;
+  border-radius: 2px; }
+.raven-frame .raven-header.top stackswitcher.linked > button:active {
+  background-color: #42474d;
+  color: #f8f8fa;
+  border-radius: 2px; }
+.raven-frame .raven-header.top stackswitcher.linked > button:checked, .raven-frame .raven-header.top stackswitcher.linked > button:selected {
+  background-color: #355374;
+  color: #ffffff;
+  border-radius: 2px; }
+.raven-frame .raven-header.bottom button {
+  background-color: transparent;
+  border-color: transparent; }
+  .raven-frame .raven-header.bottom button:hover {
+    background-color: #2d3135;
+    color: #f8f8fa;
+    border-radius: 2px; }
+  .raven-frame .raven-header.bottom button:active {
+    background-color: #42474d;
+    color: #f8f8fa;
+    border-radius: 2px; }
+  .raven-frame .raven-header.bottom button:checked, .raven-frame .raven-header.bottom button:selected {
+    background-color: #355374;
+    color: #ffffff;
+    border-radius: 2px; }
+.raven-frame .raven-background stackswitcher.linked > button:hover, .raven-frame .raven-background button:hover {
+  background-color: #383d42;
+  color: #f8f8fa;
+  border-color: #131516;
+  border-radius: 2px; }
+.raven-frame .raven-background stackswitcher.linked > button:active, .raven-frame .raven-background button:active {
+  background-color: #42474d;
+  color: #f8f8fa;
+  border-color: #131516;
+  border-radius: 2px; }
+.raven-frame .raven-background stackswitcher.linked > button:checked, .raven-frame .raven-background stackswitcher.linked > button:selected, .raven-frame .raven-background button:checked, .raven-frame .raven-background button:selected {
+  background-color: #355374;
+  color: #ffffff;
+  border-radius: 2px; }
+.raven-frame calendar.raven-calendar:selected {
+  background-color: #355374;
+  color: #ffffff;
+  border-radius: 2px; }
 
 .background headerbar entry.pathbar {
   margin: 0px;
