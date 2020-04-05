@@ -51,6 +51,11 @@ textview text {
   iconview text:selected:focus,
   textview text:selected:focus {
     border-radius: 2px; }
+  .view:backdrop, iconview:backdrop,
+  .view text:backdrop,
+  iconview text:backdrop,
+  textview text:backdrop {
+    color: rgba(248, 248, 250, 0.56); }
 
 textview border {
   background-color: #25282b; }
@@ -4082,6 +4087,12 @@ filechooser placessidebar.sidebar,
   .nautilus-window placessidebar.sidebar row.sidebar-row {
     border: 0.5px solid transparent;
     color: #f8f8fa; }
+    filechooser placessidebar.sidebar row.sidebar-row:backdrop,
+    .nautilus-window placessidebar.sidebar row.sidebar-row:backdrop {
+      color: rgba(248, 248, 250, 0.56); }
+      filechooser placessidebar.sidebar row.sidebar-row:backdrop .sidebar-icon,
+      .nautilus-window placessidebar.sidebar row.sidebar-row:backdrop .sidebar-icon {
+        color: rgba(248, 248, 250, 0.56); }
     filechooser placessidebar.sidebar row.sidebar-row .sidebar-icon,
     .nautilus-window placessidebar.sidebar row.sidebar-row .sidebar-icon {
       color: rgba(248, 248, 250, 0.78);
@@ -4097,6 +4108,15 @@ filechooser placessidebar.sidebar,
       .nautilus-window placessidebar.sidebar row.sidebar-row.has-open-popup .sidebar-icon,
       .nautilus-window placessidebar.sidebar row.sidebar-row:hover .sidebar-icon {
         color: #ffffff; }
+      filechooser placessidebar.sidebar row.sidebar-row.has-open-popup:backdrop, filechooser placessidebar.sidebar row.sidebar-row:hover:backdrop,
+      .nautilus-window placessidebar.sidebar row.sidebar-row.has-open-popup:backdrop,
+      .nautilus-window placessidebar.sidebar row.sidebar-row:hover:backdrop {
+        color: rgba(248, 248, 250, 0.67);
+        background-color: rgba(33, 36, 39, 0.56); }
+        filechooser placessidebar.sidebar row.sidebar-row.has-open-popup:backdrop .sidebar-icon, filechooser placessidebar.sidebar row.sidebar-row:hover:backdrop .sidebar-icon,
+        .nautilus-window placessidebar.sidebar row.sidebar-row.has-open-popup:backdrop .sidebar-icon,
+        .nautilus-window placessidebar.sidebar row.sidebar-row:hover:backdrop .sidebar-icon {
+          color: rgba(255, 255, 255, 0.67); }
     filechooser placessidebar.sidebar row.sidebar-row:disabled, filechooser placessidebar.sidebar row.sidebar-row:disabled label, filechooser placessidebar.sidebar row.sidebar-row:disabled image,
     .nautilus-window placessidebar.sidebar row.sidebar-row:disabled,
     .nautilus-window placessidebar.sidebar row.sidebar-row:disabled label,
@@ -4121,6 +4141,26 @@ filechooser placessidebar.sidebar,
       .nautilus-window placessidebar.sidebar row.sidebar-row:selected:hover .sidebar-icon,
       .nautilus-window placessidebar.sidebar row.sidebar-row:active:hover .sidebar-icon {
         color: #f8f8fa; }
+      filechooser placessidebar.sidebar row.sidebar-row:selected.has-open-popup:backdrop, filechooser placessidebar.sidebar row.sidebar-row:selected:backdrop, filechooser placessidebar.sidebar row.sidebar-row:selected:hover:backdrop, filechooser placessidebar.sidebar row.sidebar-row:active:hover:backdrop,
+      .nautilus-window placessidebar.sidebar row.sidebar-row:selected.has-open-popup:backdrop,
+      .nautilus-window placessidebar.sidebar row.sidebar-row:selected:backdrop,
+      .nautilus-window placessidebar.sidebar row.sidebar-row:selected:hover:backdrop,
+      .nautilus-window placessidebar.sidebar row.sidebar-row:active:hover:backdrop {
+        background-color: rgba(33, 36, 39, 0.56);
+        color: rgba(248, 248, 250, 0.67); }
+        filechooser placessidebar.sidebar row.sidebar-row:selected.has-open-popup:backdrop .sidebar-label, filechooser placessidebar.sidebar row.sidebar-row:selected:backdrop .sidebar-label, filechooser placessidebar.sidebar row.sidebar-row:selected:hover:backdrop .sidebar-label, filechooser placessidebar.sidebar row.sidebar-row:active:hover:backdrop .sidebar-label,
+        .nautilus-window placessidebar.sidebar row.sidebar-row:selected.has-open-popup:backdrop .sidebar-label,
+        .nautilus-window placessidebar.sidebar row.sidebar-row:selected:backdrop .sidebar-label,
+        .nautilus-window placessidebar.sidebar row.sidebar-row:selected:hover:backdrop .sidebar-label,
+        .nautilus-window placessidebar.sidebar row.sidebar-row:active:hover:backdrop .sidebar-label {
+          color: rgba(248, 248, 250, 0.67);
+          border-right: 4px solid rgba(53, 83, 116, 0.56); }
+        filechooser placessidebar.sidebar row.sidebar-row:selected.has-open-popup:backdrop .sidebar-icon, filechooser placessidebar.sidebar row.sidebar-row:selected:backdrop .sidebar-icon, filechooser placessidebar.sidebar row.sidebar-row:selected:hover:backdrop .sidebar-icon, filechooser placessidebar.sidebar row.sidebar-row:active:hover:backdrop .sidebar-icon,
+        .nautilus-window placessidebar.sidebar row.sidebar-row:selected.has-open-popup:backdrop .sidebar-icon,
+        .nautilus-window placessidebar.sidebar row.sidebar-row:selected:backdrop .sidebar-icon,
+        .nautilus-window placessidebar.sidebar row.sidebar-row:selected:hover:backdrop .sidebar-icon,
+        .nautilus-window placessidebar.sidebar row.sidebar-row:active:hover:backdrop .sidebar-icon {
+          color: rgba(248, 248, 250, 0.67); }
     filechooser placessidebar.sidebar row.sidebar-row:not(:selected) button.sidebar-button,
     .nautilus-window placessidebar.sidebar row.sidebar-row:not(:selected) button.sidebar-button {
       color: #f8f8fa; }
