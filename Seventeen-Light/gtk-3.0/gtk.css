@@ -4088,7 +4088,7 @@ filechooser placessidebar.sidebar,
 .nautilus-window placessidebar.sidebar {
   background-color: #ffffff;
   box-shadow: inset 37px 0 0 0 #EEF0F1;
-  padding-top: 25px;
+  margin-top: -3.7px;
   border-right: 0.5px solid rgba(217, 217, 217, 0.95); }
   filechooser placessidebar.sidebar row.sidebar-row,
   .nautilus-window placessidebar.sidebar row.sidebar-row {
@@ -4442,14 +4442,14 @@ filechooser placessidebar.sidebar scrollbar,
   border-color: rgba(242, 242, 242, 0.95); }
   filechooser placessidebar.sidebar scrollbar.overlay-indicator:not(.dragging):not(.hovering) slider,
   .nautilus-window placessidebar.sidebar scrollbar.overlay-indicator:not(.dragging):not(.hovering) slider, .nemo-window .sidebar scrollbar.overlay-indicator:not(.dragging):not(.hovering) slider, .caja-side-pane scrollbar.overlay-indicator:not(.dragging):not(.hovering) slider {
-    background-color: #444460;
+    background-color: #5e88b6;
     border: 1px solid rgba(0, 0, 0, 0.3); }
   filechooser placessidebar.sidebar scrollbar slider,
   .nautilus-window placessidebar.sidebar scrollbar slider, .nemo-window .sidebar scrollbar slider, .caja-side-pane scrollbar slider {
-    background-color: rgba(68, 68, 96, 0.7); }
+    background-color: #ababc4; }
     filechooser placessidebar.sidebar scrollbar slider:hover,
     .nautilus-window placessidebar.sidebar scrollbar slider:hover, .nemo-window .sidebar scrollbar slider:hover, .caja-side-pane scrollbar slider:hover {
-      background-color: #4e4e6f; }
+      background-color: #a5a5c0; }
     filechooser placessidebar.sidebar scrollbar slider:hover:active,
     .nautilus-window placessidebar.sidebar scrollbar slider:hover:active, .nemo-window .sidebar scrollbar slider:hover:active, .caja-side-pane scrollbar slider:hover:active {
       background-color: #507eaf; }
@@ -4458,7 +4458,7 @@ filechooser placessidebar.sidebar scrollbar,
       background-color: transparent; }
   filechooser placessidebar.sidebar scrollbar trough,
   .nautilus-window placessidebar.sidebar scrollbar trough, .nemo-window .sidebar scrollbar trough, .caja-side-pane scrollbar trough {
-    background-color: rgba(242, 242, 242, 0.95); }
+    background-color: #EEF0F1; }
 
 @define-color theme_fg_color #242433;
 @define-color theme_text_color #242433;

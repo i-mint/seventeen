@@ -4081,7 +4081,7 @@ filechooser placessidebar.sidebar,
 .nautilus-window placessidebar.sidebar {
   background-color: #282B2F;
   box-shadow: inset 37px 0 0 0 #212427;
-  padding-top: 25px;
+  margin-top: -3.7px;
   border-right: 0.5px solid rgba(24, 25, 28, 0.97); }
   filechooser placessidebar.sidebar row.sidebar-row,
   .nautilus-window placessidebar.sidebar row.sidebar-row {
@@ -4435,14 +4435,14 @@ filechooser placessidebar.sidebar scrollbar,
   border-color: rgba(28, 30, 33, 0.95); }
   filechooser placessidebar.sidebar scrollbar.overlay-indicator:not(.dragging):not(.hovering) slider,
   .nautilus-window placessidebar.sidebar scrollbar.overlay-indicator:not(.dragging):not(.hovering) slider, .nemo-window .sidebar scrollbar.overlay-indicator:not(.dragging):not(.hovering) slider, .caja-side-pane scrollbar.overlay-indicator:not(.dragging):not(.hovering) slider {
-    background-color: white;
+    background-color: #3b5d82;
     border: 1px solid rgba(0, 0, 0, 0.3); }
   filechooser placessidebar.sidebar scrollbar slider,
   .nautilus-window placessidebar.sidebar scrollbar slider, .nemo-window .sidebar scrollbar slider, .caja-side-pane scrollbar slider {
-    background-color: rgba(255, 255, 255, 0.7); }
+    background-color: #505070; }
     filechooser placessidebar.sidebar scrollbar slider:hover,
     .nautilus-window placessidebar.sidebar scrollbar slider:hover, .nemo-window .sidebar scrollbar slider:hover, .caja-side-pane scrollbar slider:hover {
-      background-color: white; }
+      background-color: #545476; }
     filechooser placessidebar.sidebar scrollbar slider:hover:active,
     .nautilus-window placessidebar.sidebar scrollbar slider:hover:active, .nemo-window .sidebar scrollbar slider:hover:active, .caja-side-pane scrollbar slider:hover:active {
       background-color: #355374; }
@@ -4451,7 +4451,7 @@ filechooser placessidebar.sidebar scrollbar,
       background-color: transparent; }
   filechooser placessidebar.sidebar scrollbar trough,
   .nautilus-window placessidebar.sidebar scrollbar trough, .nemo-window .sidebar scrollbar trough, .caja-side-pane scrollbar trough {
-    background-color: rgba(28, 30, 33, 0.95); }
+    background-color: #212427; }
 
 @define-color theme_fg_color #f8f8fa;
 @define-color theme_text_color #f8f8fa;
